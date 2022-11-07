@@ -14,7 +14,6 @@ function Student() {
 
     useEffect(() => {
         let allStudents = JSON.parse(localStorage.getItem('students'));
-        console.log('UPDATES', allStudents)
         addStudents(allStudents);
     }, []);
 
