@@ -16,7 +16,9 @@ function increamentStudentAttendanceInStorage() {
             let allStudents = await getStudentsFromStorage();
             for(let i = 0; i<allStudents.length; i++) {
                 if(allStudents>0) {
-                    allStudents[i].attendance+=1
+                  let atd = allStudents[i].attendance+=1
+                   console.log(atd)
+                  resolve(atd)
                 }
                 resolve(allStudents)
             }
