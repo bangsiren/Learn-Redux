@@ -7,7 +7,6 @@ import styles from './student.module.css'
 import { increamentStudentAttendanceInStorage } from "../../utils/storeStudent";
 function Student() {
     const state = useSelector((state) => state);
-    console.log('kkkkkkkkkkk newn====', state)
     let [student, setStudent] = useState([]);
     let [attendance, setAttendance] = useState(0)
     const dispatch = useDispatch()
