@@ -34,8 +34,6 @@ function Student() {
     //    let dat = addStudents(updateStudentAttendance)
     //    console.log('=============',updateStudentAttendance)
     //    console.log('DAAAAAAAAAAAAAAAAT', dat)
-    //    setAttendance(attendance + 1);
-    //  }
     return (
         <div className={styles.mainSec}>
             <div>
