@@ -21,30 +21,38 @@ function Student() {
         setStudent(state.student)
     }, [state]);
 
-    const handleAddQuantity = async () => {
-        const updateStudentAttendance = await increamentStudentAttendanceInStorage();
-       let dat = addStudents(updateStudentAttendance)
-       console.log('=============',updateStudentAttendance)
-       console.log('DAAAAAAAAAAAAAAAAT', dat)
-       setAttendance(attendance + 1);
-     }
+    const handleAddQuantity = () => {
+        let newStd = JSON.parse(localStorage.getItem('students'));
+        let newD
+         for(let i =0; i<newStd.length; i++) {
+             newStd[i].attendance= setStudent();
+         }
+
+    }
+    // const handleAddQuantity = async () => {
+    //     const updateStudentAttendance = await increamentStudentAttendanceInStorage();
+    //    let dat = addStudents(updateStudentAttendance)
+    //    console.log('=============',updateStudentAttendance)
+    //    console.log('DAAAAAAAAAAAAAAAAT', dat)
+    //    setAttendance(attendance + 1);
+    //  }
     return (
         <div className={styles.mainSec}>
             <div>
-            {
-                student.map(st => (
-                    <div key={st.name}>
-                        <div className={styles.nameSec}>
-                            <h4>{st.firstName}</h4>
-                            <h5>{st.attendance}</h5>
+                {
+                    student.map(st => (
+                        <div key={st.name}>
+                            <div className={styles.nameSec}>
+                                <h4>{st.firstName}</h4>
+                                <h5>{st.attendance}</h5>
+                            </div>
+                            <div className={styles.btnSec}>
+                                <button className={styles.btn}>-</button>
+                                <button onClick={handleAddQuantity} className={styles.btn}>+</button>
+                            </div>
                         </div>
-                        <div className={styles.btnSec}>
-                            <button className={styles.btn}>-</button>
-                            <button onClick={handleAddQuantity} className={styles.btn}>+</button>
-                        </div>
-                    </div>
-                ))
-            }
+                    ))
+                }
 
             </div>
 
