@@ -32,8 +32,7 @@ function Student() {
     // const handleAddQuantity = async () => {
     //     const updateStudentAttendance = await increamentStudentAttendanceInStorage();
     //    let dat = addStudents(updateStudentAttendance)
-    //    console.log('=============',updateStudentAttendance)
-    //    console.log('DAAAAAAAAAAAAAAAAT', dat)
+
     return (
         <div className={styles.mainSec}>
             <div>
