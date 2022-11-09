@@ -21,8 +21,6 @@ function Student() {
         setStudent(state.student)
     }, [state]);
 
-    const handleAddQuantity = () => {
-    }
 
     return (
         <div className={styles.mainSec}>
