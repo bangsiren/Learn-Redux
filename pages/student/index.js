@@ -25,7 +25,7 @@ function Student() {
         let newStd = JSON.parse(localStorage.getItem('students'));
         let newD
          for(let i =0; i<newStd.length; i++) {
-             newStd[i].attendance= setStudent();
+          
          }
 
     }
