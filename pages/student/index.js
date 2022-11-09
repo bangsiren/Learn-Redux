@@ -24,9 +24,7 @@ function Student() {
     const handleAddQuantity = () => {
         let newStd = JSON.parse(localStorage.getItem('students'));
         let newD
-         for(let i =0; i<newStd.length; i++) {
-          
-         }
+   
 
     }
 
