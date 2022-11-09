@@ -22,9 +22,6 @@ function Student() {
     }, [state]);
 
     const handleAddQuantity = () => {
-        let newStd = JSON.parse(localStorage.getItem('students'));
-   
-
     }
 
     return (
