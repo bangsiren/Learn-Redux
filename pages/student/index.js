@@ -24,7 +24,6 @@ function Student() {
     const handleAddQuantity = () => {
         console.log("Handle Increment");
     }
-
     return (
         <div className={styles.mainSec}>
             <div>
