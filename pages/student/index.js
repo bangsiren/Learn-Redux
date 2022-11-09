@@ -25,7 +25,6 @@ function Student() {
         console.log("Handle Increment");
     }
 
-
     return (
         <div className={styles.mainSec}>
             <div>
