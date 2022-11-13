@@ -36,7 +36,7 @@ function Student() {
                             </div>
                             <div className={styles.btnSec}>
                                 <button className={styles.btn}>-</button>
-                                <button onClick={handleAddQuantity} className={styles.btn}>+</button>
+                               
                             </div>
                         </div>
                     ))
