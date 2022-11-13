@@ -22,7 +22,7 @@ function Student() {
     }, [state]);
 
     const handleAddQuantity = () => {
-        
+        console.log('Handle Increment')
     }
     return (
         <div className={styles.mainSec}>

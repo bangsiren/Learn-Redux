@@ -20,7 +20,6 @@ function Form() {
         resolver: yupResolver(schema)
     })
     const state = useSelector((state) => state) 
-    console.log('This is the updated state', state)
     let [name, setName] = useState('');
     const handleSubmitForm = async (data) => {
         console.log('data', data);
