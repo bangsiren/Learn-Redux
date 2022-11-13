@@ -24,7 +24,7 @@ function Form() {
     const handleSubmitForm = async (data) => {
       
         let newData = await addStudentToStorage({...data, attendance: 0});
-      
+        console.log('NEW DATA COMING', newData)
         addStudents(newData);
     }
 
