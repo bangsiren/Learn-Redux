@@ -12,11 +12,7 @@ body {
   background: #70949c;
 }
 
-.submitBox {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
+
 .submit {
   background: #143038;
   cursor: pointer;
