@@ -13,15 +13,6 @@ body {
 }
 
 
-.error {
-  color: red;
-  font-size: 22px;
-  padding-top: 0;
-} 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 .btnSection {
   display: flex;
   justify-content: space-between;
