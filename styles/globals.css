@@ -19,7 +19,6 @@ body {
   background: #70949c;
 }
 .form {
-  /* padding: 2rem 0; */
   row-gap: .5rem;
   display: flex;
   justify-content: center;
