@@ -13,16 +13,6 @@ body {
 }
 
 
-.submit {
-  background: #143038;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  width: 10rem;
-  height: 40px;
-}
 .error {
   color: red;
   font-size: 22px;
