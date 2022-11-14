@@ -12,12 +12,7 @@ body {
   background: #70949c;
 }
 .form {
-  /* padding: 2rem 0; */
-  row-gap: .5rem;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-direction: column;
+lex-direction: column;
 }
 .input {
   border: 1pz solid gainsboro;
