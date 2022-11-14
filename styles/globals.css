@@ -11,9 +11,7 @@ body {
   width: 20%;
   background: #70949c;
 }
-.form {
-lex-direction: column;
-}
+
 .input {
   border: 1pz solid gainsboro;
   font-size: 1rem;
