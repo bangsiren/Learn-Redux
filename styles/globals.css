@@ -5,14 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-.formSection {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  width: 100%;
-}
+
 .formBox {
   padding: 2rem 3rem;
   width: 20%;
